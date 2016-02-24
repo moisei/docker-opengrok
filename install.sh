@@ -11,7 +11,7 @@ mkdir -p $ROOT_DIR/etc
 mkdir -p $ROOT_DIR/web/searchDalet
 
 cd $ROOT_DIR
-# wget -O - https://java.net/projects/opengrok/downloads/download/$OPENGROK_BASE.tar.gz | tar zxvf -
+wget -O - https://java.net/projects/opengrok/downloads/download/opengrok-$OG_VER.tar.gz | tar zxvf -
 
 cd $ROOT_DIR/web/searchDalet
 unzip $APP_DIR/lib/source.war
